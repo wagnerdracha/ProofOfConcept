@@ -2,7 +2,7 @@
 #    LFI - Local File Inclusion    #
 ####################################
 
-i3geo - Proof of Concept - Version 6 <= 7.0.5
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-32409)
 
 The vulnerability is a LFI (Local File Inclusion) in codemirror.php file. The file is located in the "exemplos" folder (/i3geo/exemplos/).
 
@@ -24,7 +24,7 @@ References:
 #      XSS or HTML Injection       #
 ####################################
 
-i3geo - Proof of Concept - Version 6 <= 7.0.5
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-34092)
 
 The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in svg2img.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
 
@@ -45,7 +45,7 @@ References:
 #      XSS or HTML Injection       #
 ####################################
 
-i3geo - Proof of Concept - Version 6 <= 7.0.5
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-34093)
 
 The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in access_token.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
 
@@ -66,7 +66,7 @@ References:
 #      XSS or HTML Injection       #
 ####################################
 
-i3geo - Proof of Concept - Version 6 <= 7.0.5
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-34094)
 
 The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in request_token.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
 
