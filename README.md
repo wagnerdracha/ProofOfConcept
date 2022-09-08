@@ -6,3 +6,4 @@ Este repositório é destinado a publicação de POC encontradas.
 - CVE-2022-34092 - i3geo - XSS (Cross Site Scripting) or HTML Injection - svg2img.php
 - CVE-2022-34093 - i3geo - XSS (Cross Site Scripting) or HTML Injection - access_token.php
 - CVE-2022-34094 - i3geo - XSS (Cross Site Scripting) or HTML Injection - request_token.php
+- Samsung Live Wallpaper - Privilege Escalation (Unquoted Service Paths) - LiveWallpaperWindowsService.exe
