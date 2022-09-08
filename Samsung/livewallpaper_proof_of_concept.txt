@@ -1,0 +1,34 @@
+############################################################
+#      Privilege Escalation - Unquoted Service Paths       #
+############################################################
+
+Windows - Samsung Live Wallpaper - LiveWallpaperWindowsService.exe
+
+
+The service LiveWallpaperWindowsService.exe installed on Samsung's notebook by default is vulnerable to Unquoted Service Paths.
+
+The service LiveWallpaperWindowsService.exe é executed on "NT AUTHORITY\System" (Picture_1.jpg)
+
+To check this vulnerability, access the Windows Services and right click on "Live Wallpaper" service.
+
+Next, click on Properties. On executable path, look that the path is unquoted (Picture_2.jpg)
+
+Vulnerable Path: C:\Program Files\Samsung\Live Wallpaper Service\LiveWallpaperWindowsService.exe
+
+Security Path: "C:\Program Files\Samsung\Live Wallpaper Service\LiveWallpaperWindowsService.exe"
+
+Therefore, when Operating System initiate the Live Wallpaper service, it will try to access the path and the space between "Program" and "Files" words,
+
+it will separate the path in two chunks (like "Live Wallpaper Service" that will separate in three chunks).
+
+The first chunk will be the path to executable and the second path will be an argument.
+
+So in the first chunk the executable will be the word "Program".
+
+Finally, if you have permission the write a executable on C drive with the name Program.exe, or write a executable named Live.exe (Picture_3.jpg) inside Samsung directory,
+
+you will elevate your privilege to "NT AUTHORITY\System".
+
+References:
+- https://www.hackingarticles.in/windows-privilege-escalation-unquoted-service-path/
+- https://www.ired.team/offensive-security/privilege-escalation/unquoted-service-paths
